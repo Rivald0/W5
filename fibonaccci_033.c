@@ -18,8 +18,8 @@ int main()
     
     for(int i = 1; i<= n; i++){
         Fn = Fn1 + Fn2; 
-        Fn2 = Fn1;
-        Fn1 = Fn;
+        Fn1 = Fn2;
+        Fn2 = Fn;
         printf("%d, ", Fn);
     }
     return 0;
